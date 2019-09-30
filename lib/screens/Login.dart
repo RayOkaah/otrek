@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:otrek/screens/LeaderBoard.dart';
 import 'package:otrek/screens/Registration.dart';
+import 'package:otrek/screens/TrekRoutesScreen.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -130,7 +130,7 @@ class _LoginPageState extends State<LoginPage> {
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => LeaderBoardScreen()),
+                              builder: (context) => TrekRoutesScreen()),
                         );
                       }),
                 ),

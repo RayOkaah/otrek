@@ -20,36 +20,47 @@ class _LeaderBoardScreenState extends State<LeaderBoardScreen> {
           )),
       body: Column(
         children: <Widget>[
-          Container(
-            margin: EdgeInsets.only(right: 15),
-            //width: 50,
-            height: 50,
-            child: Row(
+          /**
+
+              Container(
+              margin: EdgeInsets.only(right: 15, left: 15),
+              //width: 50,
+              height: 50,
+              child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                Text("Week 24"),
-                Container(
-                  alignment: Alignment.center,
-                  width: 20,
-                  height: 20,
-                  child: RaisedButton(
-                      child: Icon(
-                        Icons.keyboard_arrow_left,
-                        color: Colors.green,
-                      ),
-                      onPressed: () {}),
-                ),
-                Container(
-                  child: RaisedButton(
-                      child: Icon(
-                        Icons.keyboard_arrow_right,
-                        size: 1,
-                      ),
-                      onPressed: () {}),
-                ),
+              Text("Week 24"),
+              Container(
+              alignment: Alignment.center,
+              // color: Color(0xff15A4D1),
+              width: 40,
+              height: 20,
+              child: FlatButton(
+              color: Color(0xff15A4D1),
+              child: Container(
+              margin: EdgeInsets.only(right: 20),
+              child: Icon(
+              Icons.keyboard_arrow_left,
+              color: Colors.green,
+              size: 25,
+              ),
+              ),
+              onPressed: () {}),
+              ),
+              Container(
+              color: Color(0xff15A4D1),
+              child: FlatButton(
+              child: Icon(
+              Icons.keyboard_arrow_right,
+              size: 1,
+              ),
+              onPressed: () {}),
+              ),
               ],
-            ),
-          ),
+              ),
+              ),
+
+           */
           ListTile(
             leading: Text("User"),
             trailing: Text("Distance Treked"),
