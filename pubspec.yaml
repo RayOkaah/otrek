@@ -22,6 +22,8 @@ dependencies:
   introduction_screen: ^1.0.6
   expandable_card: ^0.0.3+1
   animated_card: ^1.0.0+8
+  search_widget: ^0.2.0
+  floating_search_bar: ^0.2.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
